@@ -1,5 +1,5 @@
 const axios = require('axios');
-const apikey = `eb08658461d688844d69fd39ab61fc11`;
+const apikey = `cbf731f0dabb611571167f2ad21a9d03`;
 const weatherStackURL = `http://api.weatherstack.com/current?access_key=` + apikey;
 
 const forecast = (longitude, latitude, callback) => {
